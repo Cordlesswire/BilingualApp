@@ -62,16 +62,16 @@ public class PhrasesFragment extends Fragment {
 
         final ArrayList<Word> words = new ArrayList<>();
 
-        words.add(new Word("Where are you going?", "minto wuksus", R.raw.phrase_where_are_you_going));
-        words.add(new Word("What is your name?", "tinnә oyaase'nә", R.raw.phrase_what_is_your_name));
-        words.add(new Word("My name is...", "oyaaset...", R.raw.phrase_my_name_is));
-        words.add(new Word("How are you feeling?", "michәksәs?", R.raw.phrase_how_are_you_feeling));
-        words.add(new Word("I’m feeling good.", "kuchi achit", R.raw.phrase_im_feeling_good));
-        words.add(new Word("Are you coming?", "әәnәs'aa?", R.raw.phrase_are_you_coming));
-        words.add(new Word("Yes, I’m coming.", "hәә’ әәnәm", R.raw.phrase_yes_im_coming));
-        words.add(new Word("I’m coming.", "әәnәm", R.raw.phrase_im_coming));
-        words.add(new Word("Let’s go", "yoowutisa", R.raw.phrase_lets_go));
-        words.add(new Word("Come here.", "әnni'nem", R.raw.phrase_come_here));
+        words.add(new Word("Where are you going?", "Waar gaan jy heen?", R.raw.phrases_where_are_you_going));
+        words.add(new Word("What is your name?", "Wat is jou naam?", R.raw.phrases_whats_your_name));
+        words.add(new Word("My name is...", "My naam is...", R.raw.phrases_my_name_is));
+        words.add(new Word("I don't speak Afrikaans", "Ek praat nie Afrikaans nie", R.raw.phrases_i_dont_speak_afrikaans));
+        words.add(new Word("Do you speak English?", "Praat jy Engels?", R.raw.phrases_do_you_speak_english));
+        words.add(new Word("Can you please write it down", "Kan jy dit asseblief neerskryf?", R.raw.phrases_can_you_write_it_down));
+        words.add(new Word("I don't  understand", "Ek verstaan nie", R.raw.phrases_i_dont_understand));
+        words.add(new Word("Pardon?", "Eksuus", R.raw.phrases_pardon));
+        words.add(new Word("Please speak more slowly", "Praat assemblief stadiger", R.raw.phrases_please_speak_slowly));
+        words.add(new Word("Can please repeat that in English", "Kan jy dit assemblief in Engels herhaal", R.raw.phrases_can_you_repeat_that_in_english));
 
 
         WordAdapter itemsAdapter = new WordAdapter(getActivity(), words, R.color.category_phrases);
