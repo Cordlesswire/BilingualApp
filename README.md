@@ -1,8 +1,10 @@
-Miwok App
+Bilingual App
 ===================================
 
-This app displays lists of vocabulary words for the user to learn the Miwok language.
-Used in a Udacity course in the Beginning Android Nanodegree.
+This app displays lists of vocabulary words for the user to learn the Afrikaans language.
+Afrikaans is a language of southern Africa, derived from the form of Dutch brought to the Cape by Protestant settlers in the 17th century. It is an official language of
+South Africa, spoken by around 6 million people as their first language.
+
 
 Pre-requisites
 --------------
