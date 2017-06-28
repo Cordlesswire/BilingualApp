@@ -1,6 +1,7 @@
 package com.example.android.miwok;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.media.Image;
 import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
@@ -51,7 +52,10 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         if(currentWord.hasImage()) {
             image.setImageResource(currentWord.getImageResourceId());
+            //this puts a white filter on the images -- 255 being the strongest i.e the image will be covered , so 100 is a bit transparent
+            //image.setColorFilter(Color.argb(100, 100, 100, 100));
             image.setVisibility(View.VISIBLE);
+
         }
         else {
             image.setVisibility(View.GONE);
