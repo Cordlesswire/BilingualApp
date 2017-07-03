@@ -56,5 +56,4 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
         }
     }
 
-
 }
